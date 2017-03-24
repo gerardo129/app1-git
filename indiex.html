@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>primera aplicacion</title>
+
+   <!--grupo css-->
+   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+   <!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+   <link rel="stylesheet"href="css/jquery.mobile-1.4.5.min.css"/>-->
+   <!--grupo javascript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+   
+   
+ </head>
+
+ <body>
+
+   <div data-role="page" id="pricipal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+       <h1>datos personales del alumno</h1>
+       </div>
+       <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+           <h1>foto de perfil:</h1>
+         <div>
+          <p>Esta es mi imagen de perfil</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/fotoperfil.png" width="45%" height="100%">
+           </div>
+          </div>
+         </div>
+          <div>
+            <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+             <li class="ui-first-child">
+               <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Datos Generales</h2>
+                  <p>se muestra el nombre</p>
+                 </a>
+                </li>
+                <li class="ui-first-child ui-last-child">
+                  <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>fecha de nacimiento</h2>
+                    <p>se muestra el dia,mes y año de nacimiento</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>DOMICILIO</h2>
+                    <p>muestra el domicilio del alumno</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>deporte favorito</h2>
+                    <p>muestra el deporte que mas le agrada al alumno</p>
+                   </a>
+                   </li>
+                   <li class="ui-first-child ui-last-child">
+                     <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                       <h2>OTROS GUSTOS E INTERESES</h2>
+                       <p>muestra otros gustos del alumno</p>
+                      </a>
+                     </li>
+                      </ul>
+                     </div>
+                     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                      <div>
+                        <img src="imagenes/persona_azul.png" width="5%" height="5%">
+                       </div>
+                       <div>
+                           <h4>aplicacion uno</h4>
+                           <h4>gerardo quintero sanchez</h4>
+                           </div>
+                         </div>
+                         </div>
+                         <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+                          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                          <h1>nombre</h1>
+                         </div>
+                         <div data-role="content" align="center">
+                           <div>
+                             <h2>Gerardo Quintero Sanchez<h2>
+                           </div>
+                          </div>
+                          <div data-role="footer" data-theme="a" data-position="fixed">
+                            <h4>aplicacion uno,GQS</h4>
+                          </div>
+                       </div>
+                       
+                       
+                       <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                           <h1>fecha de nacimiento</h1>
+                          </div>
+                           <div data-role="content" align="center">
+                            <div>
+                              <h2>21 de junio del 2000</h2></div>
+                             </div>
+                             <div data-role="footer" data-theme="a" data-position="fixed">
+                                <h4>aplicacion uno,GQS</h4>
+                             </div>
+                              </div>
+                              
+                              
+         <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+             <h1>domicilio</h1>
+            </div>
+             <div data-role="content" align="center">
+              <div>
+                <h2>metepec atlixco puebla calle 2 miguel hidalgo no 23</h2></div>
+              </div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4>aplicacion uno,GQS</h4>
+            </div>
+            </div>
+            
+            
+           <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                <h1>DEPORTE</h1>
+              </div>
+              <div data-role="content" align="center">
+               <div>
+                 <h2>el deporte que observa el alumno es: MOTOCROSS</h2>
+                 <img src="imagenes/deporte.jpg" width="45%" height="90%">
+               </div>
+              </div>
+             <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>aplicacion uno,GQS</h4>
+             </div>
+             </div>
+             
+             
+             <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                  <h1>gustos e intereses</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                  <h2>jugar xbox 360</h2></div>
+                  <img src="imagenes/pasatiempo.jpg" width="45%" height="90%">   
+                 </div>
+                <div data-role="footer" data-theme="a" data-position="fixed">
+                   <h4>aplicacion uno,GQS</h4>
+                </div>
+              </div>
+              
+              
+              
+</body>
+</html>
+
